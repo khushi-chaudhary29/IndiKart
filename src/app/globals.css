@@ -106,3 +106,89 @@ a {
   }
 }
  */
+
+ body {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+}
+
+.header1 {
+  display: flex;
+  padding: 10px 0;
+  background-color: rgb(218, 80, 139);
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.navbar1 {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.header2 {
+  padding: 10px 0;
+  width: 100%;
+
+  justify-content: center;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo1 {
+  color: white;
+  font-size: 1.5em;
+  text-align: center;
+  /* Center the text horizontally */
+  display: flex;
+  align-items: center;
+  /* Center the text vertically */
+  height: 100%;
+}
+
+.logo2 {
+  color: black;
+  font-size: 1.7em;
+  font-weight: bold;
+
+  left: 20px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin-right: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: gray;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.nav-links a img {
+  width: 13px;
+  height: 12px;
+}
+
+.nav-links a:hover {
+  border-bottom: 2px solid #fff;
+}
+
+.cart-badge {
+  position: absolute;
+  padding: 5px 8px;
+  font-size: 09px;
+}
