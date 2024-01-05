@@ -107,11 +107,11 @@ a {
 }
  */
 
- body {
+/*  body {
   margin: 0;
   font-family: "Arial", sans-serif;
 }
-
+ */
 .header1 {
   display: flex;
   padding: 10px 0;
@@ -192,3 +192,4 @@ nav {
   padding: 5px 8px;
   font-size: 09px;
 }
+

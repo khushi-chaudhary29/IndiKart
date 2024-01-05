@@ -4,7 +4,7 @@ import '../app/globals.css'
 
 const Footer = () => {
   return (
-    <div>Footer</div>
+    <main className='main'>Footer</main>
   )
 }
 
