@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from '../app/page.module.css'
 import '../app/globals.css'
+import { Link } from 'react-router-dom'
 
 const Navbar = () => {
     return (
@@ -19,16 +20,16 @@ const Navbar = () => {
                         <li><a href="#">All Products</a></li>
                         <li><a href="#">Order</a></li>
                         <li><a href="#">Admin</a></li>
-                        <li><a href="#">Logout</a></li>
+                        <li><a href="#">Login</a></li>
                         <li>
                             <a href="#"><img src="./Flag_of_india.png" alt="Flag of India" /> INDIA</a>
                         </li>
                         <li>
                             <a href="#"><img src="./profile.png" alt="Profile" /></a>
                         </li>
-                        <li>
+                       {/*  <li>
                             <a href="#"><img src="./sun.png" alt="Sun" /></a>
-                        </li>
+                        </li> */}
                         <li>
                             <a href="#"><img src="./cart.png" alt="Cart" /><span className="cart-badge">0</span>
                             </a>
