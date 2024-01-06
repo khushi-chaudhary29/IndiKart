@@ -229,3 +229,88 @@
   }
 }
  */
+
+.search_container {
+  position: relative;
+}
+
+.search_bar {
+  width: 1320px;
+  padding: 10px;
+  border: 1px solid rgb(61, 58, 58);
+  border-radius: 5px;
+  outline: none;
+  font-size: 16px;
+  background-color: rgb(61, 58, 58);
+}
+
+/* input {
+  background-color: rgb(61, 58, 58);
+} */
+
+.search_box {
+  width: 1300px;
+  padding: 20px 70px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  background-color: rgb(52, 43, 43);
+  box-shadow: 0 2px 4px rgba(28, 27, 27, 0.1);
+  height: 150px;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.filter {
+  display: inline-block;
+}
+
+.search_filter {
+  color: white;
+  position: absolute;
+  margin-top: 0px;
+  display: flex;
+  gap: 10px;
+  font-size: 20px;
+
+}
+
+
+
+.Reset_filter {
+  float: right;
+  padding: 20px 0px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: rgb(52, 43, 43);
+  color: #fff;
+  border: none;
+}
+
+.search_select {
+  background-color: rgb(61, 58, 58);
+  width: 400px;
+  border-radius: 5px;
+  outline: none;
+  font-size: 16px;
+  border: 1px solid rgb(61, 58, 58);
+  padding: 10px;
+  color: white;
+}
+
+.search_number {
+  background-color: rgb(61, 58, 58);
+  width: 400px;
+  border-radius: 5px;
+  outline: none;
+  font-size: 16px;
+  border: 1px solid rgb(61, 58, 58);
+  padding: 10px;
+  color: white;
+}
+
+.search_dropdown {
+  position: absolute;
+  margin-top: 30px;
+  display: flex;
+  gap: 10px;
+}
