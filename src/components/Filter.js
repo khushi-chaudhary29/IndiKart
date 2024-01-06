@@ -1,5 +1,7 @@
 import React from 'react'
 import styles from '../app/page.module.css'
+import { FiSearch } from "react-icons/fi";
+
 
 const Filter = () => {
 
@@ -7,7 +9,7 @@ const Filter = () => {
     <main className='main'>
       <div className={styles.search_box}>
         <div className={styles.search_container}>
-          <input type="text" className={styles.search_bar} placeholder="&#128269;Search here" />
+          <input type="text" className={styles.search_bar} placeholder="&#128269; Search here" />
         </div>
         <div className={styles.filter}>
           <h7 className={styles.search_filter}>Filters</h7>
