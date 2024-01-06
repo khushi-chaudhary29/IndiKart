@@ -9,7 +9,10 @@ const Filter = () => {
     <main className='main'>
       <div className={styles.search_box}>
         <div className={styles.search_container}>
+
           <input type="text" className={styles.search_bar} placeholder="&#128269; Search here" />
+
+
         </div>
         <div className={styles.filter}>
           <h7 className={styles.search_filter}>Filters</h7>

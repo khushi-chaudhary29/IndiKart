@@ -3,7 +3,12 @@ import styles from '../page.module.css'
 
 const Signup = () => {
   return (
-    <main className='main'>Signup</main>
+    <main className='main'>
+      </main>
+
+
+
+
   )
 }
 

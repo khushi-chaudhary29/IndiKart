@@ -229,16 +229,7 @@
   }
 }
  */
-/*  body {
-  font-family: Arial, sans-serif;
-  background-color: rgb(173, 161, 161);
-  margin: 0;
-  padding: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-} */
+
 
 .search_container {
   position: relative;
@@ -324,19 +315,4 @@
   display: flex;
   gap: 10px;
 }
-.PCCard{
-  background-color: rgb(59, 54, 54);
-  border-radius: 1rem;
-  border: solid 0.2rem gray;
-  width: 20rem;
-  height: 24rem;
-}
-.PCmainheading{
 
-}
-.PCuheading{
-    text-decoration-color: palevioletred; /* Set the underline color */
-    text-decoration-thickness: 0.2rem; /* Set the thickness of the underline */
-    text-underline-offset: 0.4rem;
-    width:40% ;
-}
