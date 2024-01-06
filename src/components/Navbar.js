@@ -1,8 +1,7 @@
 import React from 'react'
 import styles from '../app/page.module.css'
 import '../app/globals.css'
-import Link from 'next/link'
-
+import { Link } from 'react-router-dom'
 
 const Navbar = () => {
     return (
@@ -27,7 +26,7 @@ const Navbar = () => {
                         </li>
                         <li>
                             <a href="#"><img src="./profile.png" alt="Profile" /></a>
-                        </li>
+                        </li>ā
                        {/*  <li>
                             <a href="#"><img src="./sun.png" alt="Sun" /></a>
                         </li> */}

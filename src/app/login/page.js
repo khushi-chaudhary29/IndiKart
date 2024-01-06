@@ -3,7 +3,21 @@ import styles from '../page.module.css'
 
 const Login = () => {
   return (
-    <main className='main'>login</main>
+    <main className='main'>
+      <h1>Login</h1>
+      <form>
+      <div className="container">
+        <div className="form.box">
+          
+
+
+
+        </div>
+      </div>
+
+      </form>
+      
+    </main>
   )
 }
 
