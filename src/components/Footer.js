@@ -1,6 +1,12 @@
 import React from 'react'
 import styles from '../app/page.module.css'
 import '../app/globals.css'
+import Link from 'next/link'
+import { CiFacebook } from "react-icons/ci";
+import { CiInstagram } from "react-icons/ci";
+import { CiTwitter } from "react-icons/ci";
+import { CiLinkedin } from "react-icons/ci";
+
 
 const Footer = () => {
   return (
@@ -11,9 +17,9 @@ const Footer = () => {
             <div className="footer-col">
               <h4>CATEGORIES</h4>
               <ul>
-                <li><a href="#">HOME</a></li>
-                <li><a href="#">CART</a></li>
-                <li><a href="#">ORDER</a></li>
+                <li><Link href="/">HOME</Link></li>
+                <li><Link href="/cart">CART</Link></li>
+                <li><Link href="/order">ORDER</Link></li>
               </ul>
             </div>
             <div className="footer-col">
@@ -31,30 +37,31 @@ const Footer = () => {
                 <li><a href="#">CONTACT US</a></li>
               </ul>
             </div>
-            <div className="footer-col">
-              <h4>FOLLOW US</h4>
-              <div className="social-links">
-                <a href="#"><i class="fab fa-facebook-f"></i></a>
-                <a href="#"><i class="fab fa-instagram"></i></a>
-                <a href="#"><i class="fab fa-twitter"></i></a>
-                <a href="#"><i class="fab fa-linkedin-in"></i></a>
-              </div>
+            <div className='footerpay'>
+              <img src='./pay.png' />
             </div>
 
           </div>
+
         </div>
-      </footer>
-      <footer className="footer">
-        <div className="container1">
-          <h3>E-Indibus</h3>
-        </div>
-      </footer>
 
 
-   
-      
-    
-       </main >
+        <div className='footerContainer'>
+          <div className="footercontainer1">
+            <h3>E-Indibus</h3>
+          </div>
+          <div className="social-links">
+            <CiFacebook style={{ width: '2rem', height: '2rem' }} />
+            <CiInstagram style={{ width: '2rem', height: '2rem' }} />
+            <CiTwitter style={{ width: '2rem', height: '2rem' }} />
+            <CiLinkedin style={{ width: '2rem', height: '2rem' }} />
+
+          </div>
+        </div>
+
+      </footer>
+
+    </main >
   )
 }
 
