@@ -6,14 +6,17 @@ const ProductCard = () => {
     <main className='main'>
       <div className={styles.ProductCard}>
         <div className={styles.PCheading}>
-          <h3 className={styles.PCmainheading}><u className={styles.PCuheading}>Our Latest Collection</u></h3>
+          <h3 className={styles.PCmainheading}>Our Latest Collection</h3>
+          <hr class={styles.PCmainheadinghr}></hr>
         </div>
         <div className={styles.PCCard}>
-        <img src="public/herosection image.jpg" alt="" className={styles.PCimage} />
-        <h6 className={styles.PClogo}>IndiKart</h6>
-        <h4 classNmae={styles.PCtitle}>This is title</h4>
+        <img src="./herosection image.jpg" alt="" className={styles.PCimage} />
+        <div className={styles.PCcardcontent}>
+        <h4 className={styles.PClogo}>IndiKart</h4>
+        <p className={styles.PCtitle}>This is title</p>
         <h4 className={styles.PCrate}>&#8377;500</h4>
         <button className={styles.PCbutton}>Add to Cart</button>
+        </div>
         </div>
       </div>
     </main>

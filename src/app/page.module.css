@@ -316,3 +316,52 @@
   gap: 10px;
 }
 
+.PCCard {
+  background-color: rgb(59, 54, 54);
+  border-radius: 1rem;
+  border: solid 0.2rem gray;
+  width: 20rem;
+  height: 24rem;
+}
+
+.PCuheading {
+  text-decoration-color: palevioletred;
+  /* Set the underline color */
+  text-decoration-thickness: 0.2rem;
+  /* Set the thickness of the underline */
+  text-underline-offset: 0.4rem;
+
+}
+
+.PCmainheadinghr {
+  border: 2px solid palevioletred;
+  margin: 20px 0px;
+  width: 05rem;
+
+}
+
+.PCimage {
+  width: 18.2rem;
+  height: 12rem;
+  padding: 0.8rem;
+  border-radius: 0.8rem 0.9rem 0rem 0rem;
+  border: solid 0.2rem gray;
+
+}
+
+.PCcardcontent {
+  margin-left: 1rem;
+}
+
+.PCbutton {
+  background-color: palevioletred;
+  border: solid palevioletred;
+  border-radius: 0.4rem;
+  width: 18rem;
+  color: white;
+}
+
+.PCtitle {
+  margin-top: -1rem;
+  font-size: .8rem;
+}
