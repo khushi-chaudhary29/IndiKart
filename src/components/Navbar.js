@@ -1,7 +1,8 @@
 import React from 'react'
 import styles from '../app/page.module.css'
 import '../app/globals.css'
-import { Link } from 'react-router-dom'
+import Link from 'next/link'
+
 
 const Navbar = () => {
     return (
@@ -17,10 +18,10 @@ const Navbar = () => {
                         <p>E-IndiBus</p>
                     </div>
                     <ul className="nav-links">
-                        <li><a href="#">All Products</a></li>
-                        <li><a href="#">Order</a></li>
-                        <li><a href="#">Admin</a></li>
-                        <li><a href="#">Login</a></li>
+                        <li><Link href="/allproduct"> All Products </Link></li>
+                        <li><Link href="/order">Order </Link></li>
+                        <li><Link href="/admin">Admin</Link></li>
+                        <li><Link href="/login">Login</Link></li>
                         <li>
                             <a href="#"><img src="./Flag_of_india.png" alt="Flag of India" /> INDIA</a>
                         </li>
