@@ -15,25 +15,25 @@ const Filter = () => {
         <button className={styles.Reset_filter}>Reset Filter</button>
         <div className={styles.search_dropdown}>
           <select className={styles.search_select}>
-                <option value="Jacket">Jacket</option>
-        <option value="Shirt">Shirt</option>
-        <option value="Skirt">Skirt</option>
-        <option value="Jeans">Jeans</option>
-        <option value="Track-Suit">Track-Suit</option>
-        <option value="Lowers">Lowers</option>
-        <option value="Upper">Upper</option>
-      </select>
-      <select className={styles.search_number}>
-        <option value="100">100</option>
-        <option value="200">200</option>
-        <option value="300">300</option>
-        <option value="400">400</option>
-        <option value="500">500</option>
-        <option value="600">600</option>
-        <option value="700">700</option>
-      </select>
-    </div>
-    </div >
+            <option value="Jacket">Jacket</option>
+            <option value="Shirt">Shirt</option>
+            <option value="Skirt">Skirt</option>
+            <option value="Jeans">Jeans</option>
+            <option value="Track-Suit">Track-Suit</option>
+            <option value="Lowers">Lowers</option>
+            <option value="Upper">Upper</option>
+          </select>
+          <select className={styles.search_number}>
+            <option value="100">100</option>
+            <option value="200">200</option>
+            <option value="300">300</option>
+            <option value="400">400</option>
+            <option value="500">500</option>
+            <option value="600">600</option>
+            <option value="700">700</option>
+          </select>
+        </div>
+      </div >
     </main >
   )
 }
