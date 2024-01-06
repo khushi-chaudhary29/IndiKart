@@ -182,11 +182,6 @@ ul {
 }
 
 
-.footer-col .social-links a:hover {
-  color: #ffffff;
-  background-color: #e91e;
-}
-
 @media(max-width: 750px) {
   .footer-col {
     width: 50%;
@@ -205,6 +200,10 @@ ul {
   justify-content: space-around;
   background-color: #1f1e1e;
   align-items: center;
+}
+.social-links{
+  display: flex;
+  gap:1.5rem;
 }
 
 

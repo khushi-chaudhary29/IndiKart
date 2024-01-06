@@ -1,9 +1,7 @@
 .main {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   align-items: center;
-
 }
 .img {
   margin: 0;
@@ -97,6 +95,54 @@
   margin-top: 30px;
   display: flex;
   gap: 10px;
+}
+/* Product Card */
+
+.PCmainheadinghr {
+  border: 2px solid palevioletred;
+  margin: 20px 0px;
+  width: 05rem;
+
+}
+.PCCardContainer{
+  display: flex;
+  gap:2rem;
+}
+.PCCard {
+  background-color: rgb(59, 54, 54);
+  border-radius: 1rem;
+  border: solid 0.2rem gray;
+  width: 20rem;
+  height: 24rem;
+}
+
+
+
+
+.PCimage {
+  width: 18.2rem;
+  height: 12rem;
+  padding: 0.8rem;
+  border-radius: 0.8rem 0.9rem 0rem 0rem;
+  border: solid 0.2rem gray;
+
+}
+
+.PCcardcontent {
+  margin-left: 1rem;
+}
+
+.PCbutton {
+  background-color: palevioletred;
+  border: solid palevioletred;
+  border-radius: 0.4rem;
+  width: 18rem;
+  color: white;
+}
+
+.PCtitle {
+  margin-top: -1rem;
+  font-size: .8rem;
 }
 
 

@@ -49,7 +49,7 @@ const Footer = () => {
             <h3>E-Indibus</h3>
           </div>
           <div className="social-links">
-            <CiFacebook style={{ width: '2rem', height: '2rem' }} />
+            <CiFacebook style={{ width: '2rem', height: '2rem'}} />
             <CiInstagram style={{ width: '2rem', height: '2rem' }} />
             <CiTwitter style={{ width: '2rem', height: '2rem' }} />
             <CiLinkedin style={{ width: '2rem', height: '2rem' }} />
