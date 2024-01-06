@@ -37,9 +37,7 @@ const Footer = () => {
                 <li><a href="#">CONTACT US</a></li>
               </ul>
             </div>
-            <div className='footerpay'>
-              <img src='./pay.png' />
-            </div>
+            
 
           </div>
 
