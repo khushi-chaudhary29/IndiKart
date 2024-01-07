@@ -46,7 +46,7 @@ const Footer = () => {
 
         <div className='footerContainer'>
           <div className="footercontainer1">
-            <h3>E-Indibus</h3>
+            <h3>IndiKart</h3>
           </div>
           <div className="social-links">
             <CiFacebook style={{ width: '2rem', height: '2rem'}} />
