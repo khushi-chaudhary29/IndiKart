@@ -386,3 +386,108 @@
   border-radius: 0.6rem;
   border-color: rgb(59, 54, 54) rgb(59, 54, 54) rgb(38, 213, 38) rgb(59, 54, 54);
 }
+
+/*Product */
+.ProductHeading {
+  text-align: center;
+  text-decoration-line: underline;
+  margin-top: 3rem;
+}
+
+.ProductButton {
+
+  background-color: rgb(59, 54, 54);
+  border: solid gray 0.1rem;
+  color: white;
+  border-radius: 0.3rem;
+  padding: 0.6rem;
+  width: 9rem;
+  text-align: center;
+  float: right;
+  margin-right: 15rem;
+  margin-top: 1rem;
+}
+
+.ProductTableContent {
+  border-collapse: collapse;
+  background-color: rgb(59, 54, 54);
+  margin-left: 10rem;
+  width: 90rem;
+  margin-top: 5rem;
+
+
+}
+
+.ProductTableHeading {
+  border: 0.1rem solid gray;
+  text-align: left;
+}
+
+.ProductTableImage {
+  width: 3rem;
+  height: 2rem;
+}
+
+.ProductTableData {
+  font-size: 1rem;
+}
+
+/*Order */
+.OrderHeading {
+  text-align: center;
+  text-decoration-line: underline;
+  margin-top: 3rem;
+}
+
+
+.OrderTableContent {
+  border-collapse: collapse;
+  background-color: rgb(59, 54, 54);
+  margin-left: 10rem;
+  width: 90rem;
+  margin-top: 2rem;
+
+
+}
+
+.OrderTableHeading {
+  border: 0.1rem solid gray;
+  text-align: left;
+}
+
+.OrderTableImage {
+  width: 3rem;
+  height: 2rem;
+}
+
+.OrderTableData {
+  font-size: 1rem;
+}
+
+/*User */
+.UserHeading {
+  text-align: center;
+  text-decoration-line: underline;
+  margin-top: 1rem;
+}
+
+
+.UserTableContent {
+  border-collapse: collapse;
+  background-color: rgb(59, 54, 54);
+  margin-left: 10rem;
+  width: 90rem;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+
+
+}
+
+.UserTableHeading {
+  border: 0.1rem solid gray;
+  text-align: left;
+}
+
+.UserTableData {
+  font-size: 1rem;
+}
