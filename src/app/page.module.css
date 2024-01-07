@@ -214,6 +214,45 @@
   color: red;
 }
 
+/*Track*/
+
+.maintrack {
+  display: flex;
+  gap: 2rem;
+  margin-top: 1.5rem;
+}
+
+.TrackBag {
+  background-color: rgb(59, 54, 54);
+  border-radius: 0.6rem;
+  border: solid 0.2rem gray;
+  width: 27rem;
+  height: 10rem;
+}
+
+.TrackBaglogo {
+  text-align: center;
+  color: palevioletred;
+  font-size: 3rem;
+  margin-top: 1rem;
+  margin-bottom: 0.8rem;
+
+
+}
+
+.TrackBagHead {
+  text-align: center;
+  font-weight: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+
+}
+
+.TrackBagContent {
+  text-align: center;
+  font-size: 0.8rem;
+
+}
 
 
 
