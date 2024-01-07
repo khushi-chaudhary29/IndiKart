@@ -314,3 +314,75 @@
   margin-bottom: 4rem;
   margin-top: 0.1rem;
 }
+
+/*Admin*/
+.mainAdmin {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.5rem;
+  margin-left: 17rem;
+  width: 80rem;
+  height: 12rem;
+  align-items: center;
+}
+
+.AdminBag {
+  background-color: rgb(59, 54, 54);
+  border-radius: 0.6rem;
+  border: solid 0.2rem gray;
+  width: 27rem;
+  height: 10rem;
+}
+
+.AdminBaglogo {
+  text-align: center;
+  color: rgb(180, 83, 204);
+  font-size: 3rem;
+  margin-top: 1rem;
+  margin-bottom: 0.8rem;
+
+
+}
+
+.AdminBagHead {
+  text-align: center;
+  font-weight: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+
+}
+
+.AdminBagContent {
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+.AdminButton {
+  display: flex;
+  gap: 2rem;
+  margin-left: 47rem;
+}
+
+.AdminProductButton {
+  width: 6rem;
+  color: rgb(180, 83, 204);
+  background-color: rgb(59, 54, 54);
+  border-radius: 0.6rem;
+  border-color: rgb(59, 54, 54) rgb(59, 54, 54) rgb(180, 83, 204) rgb(59, 54, 54);
+}
+
+.AdminOrderButton {
+  width: 6rem;
+  color: palevioletred;
+  background-color: rgb(59, 54, 54);
+  border-radius: 0.6rem;
+  border-color: rgb(59, 54, 54) rgb(59, 54, 54) palevioletred rgb(59, 54, 54);
+}
+
+.AdminUsersButton {
+  width: 6rem;
+  color: green;
+  background-color: rgb(59, 54, 54);
+  border-radius: 0.6rem;
+  border-color: rgb(59, 54, 54) rgb(59, 54, 54) rgb(38, 213, 38) rgb(59, 54, 54);
+}
