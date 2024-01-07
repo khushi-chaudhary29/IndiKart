@@ -154,7 +154,7 @@
   height: 62.5vh;
   display: flex;
   justify-content: center;
-  
+
 }
 
 .form_box {
@@ -168,7 +168,7 @@
   padding: 1rem;
   text-align: center;
   border-radius: 1rem;
- 
+
 }
 
 .form_box h1 {
@@ -180,12 +180,12 @@
 
 .input {
   width: 80%;
-  
+
   background: transparent;
   margin: .5rem;
   border-radius: .5rem;
- border: 1px solid #000;
- padding: .6rem;
+  border: 1px solid #000;
+  padding: .6rem;
 
 
 
@@ -203,13 +203,15 @@
   margin-top: .5rem;
   border-radius: .5rem;
   font-size: 1.5rem;
-  
+
 
 }
-.field p{
+
+.field p {
   color: #0d0c0c;
 }
-.SignupLink{
+
+.SignupLink {
   text-decoration: none;
   color: red;
 }
@@ -254,11 +256,61 @@
 
 }
 
+/*Testimonial*/
 
+.Testimonialheading {
+  text-align: center;
+}
 
+.Testimonialsubheading {
+  text-align: center;
 
+}
 
+.Testimonialcontent {
+  display: flex;
+  gap: 2rem;
+  margin-top: 1.5rem;
+  text-align: center;
+}
 
+.TestimonialSPD {
+  width: 30rem;
+}
 
+.TestimonialSPDlogo {
+  color: rgb(59, 59, 165);
+}
 
+.TestimonialUID {
+  width: 30rem;
+}
 
+.TestimonialUIDlogo {
+  color: rgb(96, 52, 66);
+}
+
+.TestimonialCTO {
+  width: 30rem;
+}
+
+.TestimonialCTOlogo {
+  color: rgb(0, 128, 255);
+}
+
+.TestimonialUIDhr {
+  width: 3rem;
+  border: 2px solid palevioletred;
+  border-radius: 1rem;
+
+}
+
+.TestimonialUIDname {
+  color: rgb(208, 79, 122);
+
+}
+
+.TestimonialUIDabout {
+  margin-bottom: 4rem;
+  margin-top: 0.1rem;
+}
