@@ -3,6 +3,7 @@
   flex-direction: column;
   align-items: center;
 }
+
 .img {
   margin: 0;
   padding: 0;
@@ -30,7 +31,7 @@
 
 
 .search_box {
-  margin-top:2rem;
+  margin-top: 2rem;
   width: 1300px;
   padding: 20px 70px;
   border: 2px solid #ccc;
@@ -96,6 +97,7 @@
   display: flex;
   gap: 10px;
 }
+
 /* Product Card */
 
 .PCmainheadinghr {
@@ -104,10 +106,12 @@
   width: 05rem;
 
 }
-.PCCardContainer{
+
+.PCCardContainer {
   display: flex;
-  gap:2rem;
+  gap: 2rem;
 }
+
 .PCCard {
   background-color: rgb(59, 54, 54);
   border-radius: 1rem;
@@ -146,7 +150,7 @@
 }
 
 /*login and signup css */
-.signupcontainer{
+.signupcontainer {
   height: 100vh;
   width: 100%;
   background-color: #bbbbbb;
@@ -154,10 +158,11 @@
   justify-content: center;
   align-items: center;
 }
-.form-box{
+
+.form-box {
   max-width: 29rem;
   width: 90%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
   background: #fff;
   top: 50%;
   left: 50%;
@@ -165,46 +170,52 @@
   padding: 3.5rem 3.7rem 4.2rem;
   text-align: center;
 }
-.form-box h1{
+
+.form-box h1 {
   font-size: 1.5rem;
   margin-bottom: 1.7rem;
   color: #0d0c0c;
   position: center;
 }
-.input-login{
+
+.input-login {
   background: #eaeaea;
   margin: 15px;
   border-radius: 3px;
 }
-input{
-width: 100%;
-background: transparent;
-border: 1%;
-outline: 1%;
-padding: 1rem 1rem;
+
+.input {
+  width: 100%;
+  background: transparent;
+  border: 1%;
+  outline: 1%;
+  padding: 1rem 1rem;
 
 }
-.btn{
+
+.btn {
   width: 100%;
   margin-top: 0.5rem;
-      background-color: #e91e;
-      border: none;
-      border-radius:5px;
-      height: 2rem;
-      color: white;
+  background-color: #e91e;
+  border: none;
+  border-radius: 5px;
+  height: 2rem;
+  color: white;
 
 }
-.btn button{
+
+.btn button {
   width: 100%;
   background-color: #e91e;
   color: #fff;
   height: 2rem;
-border: 0;
+  border: 0;
   outline: 0;
   cursor: pointer;
- 
+
 }
-.Login{
+
+.Login {
   height: 100vh;
   width: 100%;
   background-color: #bbbbbb;
@@ -212,10 +223,11 @@ border: 0;
   justify-content: center;
   align-items: center;
 }
-.formbox{
+
+.formbox {
   max-width: 29rem;
   width: 90%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
   background: #fff;
   top: 50%;
   left: 50%;
@@ -223,42 +235,47 @@ border: 0;
   padding: 3.5rem 3.7rem 4.2rem;
   text-align: center;
 }
-.formbox h1{
+
+.formbox h1 {
   font-size: 1.5rem;
   margin-bottom: 1.7rem;
   color: #0d0c0c;
   position: center;
 }
-.input-login1{
+
+.input-login1 {
   background: #eaeaea;
   margin: 15px;
   border-radius: 3px;
 }
-input{
-width: 100%;
-background: transparent;
-border: 1%;
-outline: 1%;
-padding: 1rem 1rem;
+
+.input {
+  width: 100%;
+  background: transparent;
+  border: 1%;
+  outline: 1%;
+  padding: 1rem 1rem;
 
 }
-.btn2{
+
+.btn2 {
   width: 100%;
   margin-top: 0.5rem;
-      background-color: #e91e;
-      border: none;
-      border-radius:5px;
-      height: 2rem;
-      color: white;
+  background-color: #e91e;
+  border: none;
+  border-radius: 5px;
+  height: 2rem;
+  color: white;
 
 }
-.btn2 button{
+
+.btn2 button {
   width: 100%;
   background-color: #e91e;
   color: #fff;
   height: 2rem;
-border: 0;
+  border: 0;
   outline: 0;
   cursor: pointer;
- 
+
 }

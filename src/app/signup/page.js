@@ -10,22 +10,25 @@ const Signup = () => {
           <form>
             <div className="input-login">
               <div className="field">
-                <input type="text" placeholder="Email" name="email" required><br><br>
-                  <input type="password" placeholder="Password">
-                  </div>
-                  <div className="btn">
-                    <button typeName="button">Sign Up</button>
-                  </div>
+                <input type="text" placeholder="Email" name="email" required className='input' /><br></br>
+                <input type="password" placeholder="Password" className='input' />
+
+                <div className="btn">
+                  <button typeName="button">Sign Up</button>
                 </div>
-                </form>
+
               </div>
             </div>
-          </main>
+
+          </form>
+        </div>
+      </div>
+    </main >
 
 
 
 
-          )
+  )
 }
 
-          export default Signup
+export default Signup

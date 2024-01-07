@@ -10,8 +10,8 @@ const Login = () => {
           <form>
             <div className="input-login1">
               <div className="field2">
-                <input type="text" placeholder="Email" name="email" required><br><br>
-                  <input type="password" placeholder="Password">
+                <input type="text" placeholder="Email" name="email" required className='input'/><br></br>
+                  <input type="password" placeholder="Password" className='input'/>
                   </div>
                   <div className="btn2">
                     <button type="button">Login</button>
