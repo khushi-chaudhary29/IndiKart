@@ -17,7 +17,7 @@ const Navbar = () => {
                 <header className="header2">
                     <nav className="navbar">
                         <div className="logo2">
-                            <p>E-IndiBus</p>
+                            <p>IndiKart</p>
                         </div>
                         <ul className="nav-links">
                             <li><Link href="/allproduct"> All Products </Link></li>
