@@ -151,131 +151,75 @@
 
 /*login and signup css */
 .signupcontainer {
-  height: 100vh;
-  width: 100%;
-  background-color: #bbbbbb;
+  height: 62.5vh;
   display: flex;
   justify-content: center;
-  align-items: center;
+  
 }
 
-.form-box {
-  max-width: 29rem;
+.form_box {
+  max-width: 20rem;
   width: 90%;
   transform: translate(-50%, -50%);
   background: #fff;
-  top: 50%;
+  top: 40%;
   left: 50%;
   position: absolute;
-  padding: 3.5rem 3.7rem 4.2rem;
+  padding: 1rem;
   text-align: center;
+  border-radius: 1rem;
+ 
 }
 
-.form-box h1 {
+.form_box h1 {
   font-size: 1.5rem;
   margin-bottom: 1.7rem;
   color: #0d0c0c;
   position: center;
 }
 
-.input-login {
-  background: #eaeaea;
-  margin: 15px;
-  border-radius: 3px;
-}
-
 .input {
-  width: 100%;
+  width: 80%;
+  
   background: transparent;
-  border: 1%;
-  outline: 1%;
-  padding: 1rem 1rem;
+  margin: .5rem;
+  border-radius: .5rem;
+ border: 1px solid #000;
+ padding: .6rem;
+
+
 
 }
 
-.btn {
-  width: 100%;
-  margin-top: 0.5rem;
-  background-color: #e91e;
-  border: none;
-  border-radius: 5px;
-  height: 2rem;
-  color: white;
-
-}
 
 .btn button {
-  width: 100%;
-  background-color: #e91e;
-  color: #fff;
-  height: 2rem;
-  border: 0;
-  outline: 0;
-  cursor: pointer;
-
-}
-
-.Login {
-  height: 100vh;
-  width: 100%;
-  background-color: #bbbbbb;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.formbox {
-  max-width: 29rem;
   width: 90%;
-  transform: translate(-50%, -50%);
-  background: #fff;
-  top: 50%;
-  left: 50%;
-  position: absolute;
-  padding: 3.5rem 3.7rem 4.2rem;
-  text-align: center;
-}
-
-.formbox h1 {
-  font-size: 1.5rem;
-  margin-bottom: 1.7rem;
-  color: #0d0c0c;
-  position: center;
-}
-
-.input-login1 {
-  background: #eaeaea;
-  margin: 15px;
-  border-radius: 3px;
-}
-
-.input {
-  width: 100%;
-  background: transparent;
-  border: 1%;
-  outline: 1%;
-  padding: 1rem 1rem;
-
-}
-
-.btn2 {
-  width: 100%;
-  margin-top: 0.5rem;
-  background-color: #e91e;
-  border: none;
-  border-radius: 5px;
-  height: 2rem;
-  color: white;
-
-}
-
-.btn2 button {
-  width: 100%;
   background-color: #e91e;
   color: #fff;
-  height: 2rem;
+  height: 2.3rem;
   border: 0;
   outline: 0;
   cursor: pointer;
+  margin-top: .5rem;
+  border-radius: .5rem;
+  font-size: 1.5rem;
+  
 
 }
+.field p{
+  color: #0d0c0c;
+}
+.SignupLink{
+  text-decoration: none;
+  color: red;
+}
+
+
+
+
+
+
+
+
+
+
