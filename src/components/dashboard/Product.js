@@ -8,7 +8,9 @@ const Product = () => {
   return (
     <main className='main'>
       <h3 className={styles.ProductHeading}>Product Details</h3>
-      <button className={styles.ProductButton}>Add Product <LuShoppingCart style={{ width: '1rem', height: '1rem' }} /></button>
+     <div className={styles.productAdd}>
+     <button className={styles.ProductButton}>Add Product <LuShoppingCart style={{ width: '1rem', height: '1rem' }} /></button>
+     </div>
       <div className={styles.ProductTable}>
         <table className={styles.ProductTableContent} cellpadding="08px">
           <tr className={styles.ProductTableHeading}>

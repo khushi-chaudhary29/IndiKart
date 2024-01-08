@@ -316,14 +316,18 @@
 }
 
 /*Admin*/
+.AdminContainer{
+  display: flex;
+  justify-content: center;
+}
 .mainAdmin {
   display: flex;
   gap: 1rem;
   margin-top: 1.5rem;
-  margin-left: 17rem;
   width: 80rem;
   height: 12rem;
   align-items: center;
+
 }
 
 .AdminBag {
@@ -364,27 +368,33 @@
 }
 
 .AdminProductButton {
-  width: 6rem;
+  width: 8rem;
   color: rgb(180, 83, 204);
   background-color: rgb(59, 54, 54);
   border-radius: 0.6rem;
   border-color: rgb(59, 54, 54) rgb(59, 54, 54) rgb(180, 83, 204) rgb(59, 54, 54);
+  font-size: 1.2rem;
+  cursor: pointer;
 }
 
 .AdminOrderButton {
-  width: 6rem;
+  width: 7rem;
   color: palevioletred;
   background-color: rgb(59, 54, 54);
   border-radius: 0.6rem;
+  font-size: 1.2rem;
   border-color: rgb(59, 54, 54) rgb(59, 54, 54) palevioletred rgb(59, 54, 54);
+  cursor: pointer;
 }
 
 .AdminUsersButton {
-  width: 6rem;
+  width: 7rem;
   color: green;
   background-color: rgb(59, 54, 54);
   border-radius: 0.6rem;
+  font-size: 1.2rem;
   border-color: rgb(59, 54, 54) rgb(59, 54, 54) rgb(38, 213, 38) rgb(59, 54, 54);
+  cursor: pointer;
 }
 
 /*Product */
@@ -393,6 +403,13 @@
   text-decoration-line: underline;
   margin-top: 3rem;
 }
+.productAdd{
+ display: flex;
+ justify-content: flex-end;
+ margin-top: 5rem;
+ margin-right: 14.5rem;
+}
+
 
 .ProductButton {
 
@@ -403,19 +420,19 @@
   padding: 0.6rem;
   width: 9rem;
   text-align: center;
-  float: right;
-  margin-right: 15rem;
-  margin-top: 1rem;
+   
+}
+.ProductTable{
+  display: flex;
+  justify-content: center;
+  align-items: center;  
 }
 
 .ProductTableContent {
   border-collapse: collapse;
-  background-color: rgb(59, 54, 54);
-  margin-left: 10rem;
+  background-color: rgb(59, 54, 54); 
   width: 90rem;
-  margin-top: 5rem;
-
-
+  margin-top: 1rem;
 }
 
 .ProductTableHeading {
@@ -438,12 +455,15 @@
   text-decoration-line: underline;
   margin-top: 3rem;
 }
+.OrderTable{
+  display: flex;
+  justify-content: center;
+}
 
 
 .OrderTableContent {
   border-collapse: collapse;
   background-color: rgb(59, 54, 54);
-  margin-left: 10rem;
   width: 90rem;
   margin-top: 2rem;
 
@@ -470,12 +490,15 @@
   text-decoration-line: underline;
   margin-top: 1rem;
 }
+.UserTable{
+  display: flex;
+  justify-content: center;
+}
 
 
 .UserTableContent {
   border-collapse: collapse;
   background-color: rgb(59, 54, 54);
-  margin-left: 10rem;
   width: 90rem;
   margin-top: 2rem;
   margin-bottom: 3rem;

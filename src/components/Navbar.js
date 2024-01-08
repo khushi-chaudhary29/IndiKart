@@ -28,16 +28,22 @@ const Navbar = () => {
                                 <a href="#"><img src="./Flag_of_india.png" alt="Flag of India" /> INDIA</a>
                             </li>
                             <li>
-                               <div className='navProfile'>
-                                <img src='./gaming.png'/>
-                               </div>
+                                <div className='navProfile'>
+                                    <img src='./gaming.png' />
+                                </div>
                             </li>
-                          
+
                             <li>
-                            <LuShoppingCart style={{ width: '1.8rem', height: '1.8rem' }} />
+                                <Link href='./cart' >
+                                    <LuShoppingCart style={{ width: '1.8rem', height: '1.8rem' }} />
+                                </Link>
+
                             </li>
                             <li>
-                            <span className='AddcartCount'>0</span>
+                                <Link href='./cart' >
+                                    <span className='AddcartCount'>0</span>
+                                </Link>
+
                             </li>
                         </ul>
                     </nav>

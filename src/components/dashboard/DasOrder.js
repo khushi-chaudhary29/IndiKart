@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from '@/app/page.module.css'
 
-const Order = () => {
+const DasOrder = () => {
   return (
     <main className='main'>
       <h3 className={styles.OrderHeading}>Order Details</h3>
@@ -41,4 +41,4 @@ const Order = () => {
   )
 }
 
-export default Order
+export default DasOrder
