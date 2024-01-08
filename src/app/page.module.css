@@ -316,10 +316,11 @@
 }
 
 /*Admin*/
-.AdminContainer{
+.AdminContainer {
   display: flex;
   justify-content: center;
 }
+
 .mainAdmin {
   display: flex;
   gap: 1rem;
@@ -403,11 +404,12 @@
   text-decoration-line: underline;
   margin-top: 3rem;
 }
-.productAdd{
- display: flex;
- justify-content: flex-end;
- margin-top: 5rem;
- margin-right: 14.5rem;
+
+.productAdd {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 5rem;
+  margin-right: 14.5rem;
 }
 
 
@@ -420,17 +422,18 @@
   padding: 0.6rem;
   width: 9rem;
   text-align: center;
-   
+
 }
-.ProductTable{
+
+.ProductTable {
   display: flex;
   justify-content: center;
-  align-items: center;  
+  align-items: center;
 }
 
 .ProductTableContent {
   border-collapse: collapse;
-  background-color: rgb(59, 54, 54); 
+  background-color: rgb(59, 54, 54);
   width: 90rem;
   margin-top: 1rem;
 }
@@ -455,7 +458,8 @@
   text-decoration-line: underline;
   margin-top: 3rem;
 }
-.OrderTable{
+
+.OrderTable {
   display: flex;
   justify-content: center;
 }
@@ -490,7 +494,8 @@
   text-decoration-line: underline;
   margin-top: 1rem;
 }
-.UserTable{
+
+.UserTable {
   display: flex;
   justify-content: center;
 }
@@ -516,24 +521,28 @@
 }
 
 /* Cart */
-.cartContainer{
+.cartContainer {
   margin-bottom: 10rem;
 }
-.heading{
+
+.heading {
   font-size: 3rem;
   text-align: center;
   justify-content: center;
 }
-.cart{
+
+.cart {
   display: flex;
   justify-content: center;
   margin-top: 3rem;
   gap: 2rem;
 }
-.cartLeft{
+
+.cartLeft {
   display: flex;
 }
-.leftcontainer{
+
+.leftcontainer {
   display: flex;
   padding: 1rem;
   background-color: #332f2f;
@@ -543,31 +552,33 @@
   height: 12rem;
 }
 
-.leftcontainer img{
-  border-radius: .8rem;  
+.leftcontainer img {
+  border-radius: .8rem;
 }
-.cartcantainerdetails{
+
+.cartcantainerdetails {
   padding-left: 1rem;
 }
 
-.desc{
+.desc {
   margin-top: -.5rem;
-  
-}
-.price{
- margin-top: -.5rem;
 
 }
 
-.cartDelete{
+.price {
+  margin-top: -.5rem;
+
+}
+
+.cartDelete {
   font-size: 1.5rem;
   margin-left: -2.5rem;
   margin-top: 1rem;
 }
 
-.cartcontainer1{
+.cartcontainer1 {
   display: flex;
-  background-color:  #332f2f;
+  background-color: #332f2f;
   flex-direction: column;
   width: 20rem;
   height: 15rem;
@@ -575,31 +586,37 @@
   color: #fff;
   border-radius: 1rem;
 }
-.cartpara{
+
+.cartpara {
   display: flex;
   justify-content: space-around;
-  
+
 }
-.cartpara1{
+
+.cartpara1 {
   display: flex;
   justify-content: space-around;
-  
+
 }
-.cartpara2{
+
+.cartpara2 {
   display: flex;
   justify-content: space-around;
-  
+
 }
-.cartunderline{
+
+.cartunderline {
   width: 80%;
-} 
-.cartbutton{
- display: flex;
- justify-content: center;
- align-items: center;
- 
 }
-.button{
+
+.cartbutton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.button {
   background-color: blueviolet;
   border-radius: .5rem;
   font-size: 1rem;
@@ -607,5 +624,53 @@
   cursor: pointer;
   width: 16rem;
   height: 2rem;
-  
+
+}
+
+/*AddProduct*/
+.AddProductContainer {
+  background-color: rgb(59, 54, 54);
+  border-radius: 1rem;
+  width: 20rem;
+  height: 31rem;
+  margin: auto;
+  margin-bottom: 2rem;
+
+
+}
+
+.AddProductHeading {
+  text-align: center;
+  padding-top: 3rem;
+}
+
+.AddProductAbout {
+  background-color: rgb(91, 80, 80);
+  border-radius: 0.4rem;
+  border: rgb(91, 80, 80);
+  margin-left: 1rem;
+  width: 18rem;
+  height: 2rem;
+  margin-top: 0.3rem;
+  margin-bottom: 0.3rem;
+
+
+}
+
+.AddProductTextArea {
+  background-color: rgb(91, 80, 80);
+  margin-left: 1rem;
+  border-radius: 0.4rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: rgb(91, 80, 80);
+}
+
+.AddProductButton {
+  background-color: rgb(188, 150, 44);
+  border: solid rgb(188, 150, 44);
+  border-radius: 0.4rem;
+  width: 18rem;
+  color: black;
+  margin-left: 1rem;
 }
