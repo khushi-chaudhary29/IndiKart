@@ -815,3 +815,100 @@
   align-items: center;
   margin-top: 1.5rem;
 }
+/* Product Info*/
+.smallcontainer{
+  margin: 6.25rem auto;
+  width: 75%;
+}
+.pic{
+  max-width: 18rem;
+  float: left;
+  border-radius: 0.1rem;
+  margin-right: 1.8rem;
+  border: 2rem solid black;
+}
+.col_2 h3{
+  font-size: 1.25rem;
+  padding: 1.25rem;
+  color: #fff;
+}
+.col_2 h4{
+  font-size: 1.12rem;
+  padding: 1.25rem;
+  color: #e91e;
+}
+.col_2 p{
+  font-size: 1rem;
+  padding: 1.25rem;
+  color: #fff ;
+ 
+}
+.col_2 p line{
+  border-bottom: 2rem solid black;
+  width: 2rem;
+}
+.col_2 button{
+  padding: 1.25rem;
+  color: black;
+  background-color: #e91e;
+  margin-top: 1.2rem;
+}
+/* About*/
+.heading{
+  width: 90%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 5rem auto;
+  padding: 5rem;
+}
+.heading h1{
+  font-size: 4rem;
+  margin-bottom: 2.5rem;
+  position: relative;
+}
+
+.heading h1::after{
+  content: "";
+   width: 20%;
+  height: 1.5rem;
+  display: block;
+  margin:0 auto;
+  background-color: #e91e;
+
+}
+.heading p{
+  font-size: 2rem;
+  color: black;
+}
+/* return */
+.heading{
+  width: 90%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 5rem auto;
+  padding: 5rem;
+}
+.heading h1{
+  font-size: 4rem;
+  margin-bottom: 2.5rem;
+  position: relative;
+}
+
+.heading h1::after{
+  content: "";
+   width: 20%;
+  height: 1.5rem;
+  display: block;
+  margin:0 auto;
+  background-color: #e91e;
+
+}
+.heading p{
+  font-size: 2rem;
+  color: black;
+}
+
+
+  
