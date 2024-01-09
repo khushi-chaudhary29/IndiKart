@@ -12,7 +12,7 @@ const ProductCard = () => {
         </div>
         <div className={styles.PCCardContainer}>
           <div className={styles.PCCard}>
-            <img src="./herosection image.jpg" alt="" className={styles.PCimage} />
+            <img src="./shoes.jpeg" alt="" className={styles.PCimage} />
             <div className={styles.PCcardcontent}>
               <h4 className={styles.PClogo}>IndiKart</h4>
               <p className={styles.PCtitle}>This is title</p>
@@ -22,7 +22,7 @@ const ProductCard = () => {
 
           </div>
           <div className={styles.PCCard}>
-            <img src="./herosection image.jpg" alt="" className={styles.PCimage} />
+            <img src="./iphone.webp" alt="" className={styles.PCimage} />
             <div className={styles.PCcardcontent}>
               <h4 className={styles.PClogo}>IndiKart</h4>
               <p className={styles.PCtitle}>This is title</p>
