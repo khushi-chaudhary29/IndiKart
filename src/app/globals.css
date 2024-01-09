@@ -125,6 +125,7 @@ nav {
 .row {
   display: flex;
   justify-content: center;
+ 
 }
 
 ul {
@@ -137,8 +138,9 @@ ul {
 }
 
 .footer-col {
-  width: 25%;
-  padding: 0 15px;
+  width: 30%;
+  padding: 0 5rem;
+ 
 }
 
 .footer-col h4 {
@@ -204,6 +206,9 @@ ul {
 .social-links{
   display: flex;
   gap:1.5rem;
+}
+.social-links a{
+  color: #fff;
 }
 
 

@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from '../app/page.module.css'
+import Link from 'next/link'
 
 const ProductCard = () => {
   return (
@@ -16,7 +17,7 @@ const ProductCard = () => {
               <h4 className={styles.PClogo}>IndiKart</h4>
               <p className={styles.PCtitle}>This is title</p>
               <h4 className={styles.PCrate}>&#8377;500</h4>
-              <button className={styles.PCbutton}>Add to Cart</button>
+              <Link href='/productinfo'><button className={styles.PCbutton}>Add to Cart</button></Link>
             </div>
 
           </div>

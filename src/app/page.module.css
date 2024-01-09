@@ -99,7 +99,9 @@
 }
 
 /* Product Card */
-
+.ProductCard{
+  margin-bottom: 1rem;
+}
 .PCmainheadinghr {
   border: 2px solid palevioletred;
   margin: 20px 0px;
@@ -117,7 +119,7 @@
   border-radius: 1rem;
   border: solid 0.2rem gray;
   width: 20rem;
-  height: 24rem;
+  height: 25rem;
 }
 
 
@@ -129,6 +131,7 @@
   padding: 0.8rem;
   border-radius: 0.8rem 0.9rem 0rem 0rem;
   border: solid 0.2rem gray;
+
 
 }
 
@@ -142,6 +145,8 @@
   border-radius: 0.4rem;
   width: 18rem;
   color: white;
+  padding: .5rem;
+  cursor: pointer;
 }
 
 .PCtitle {
@@ -397,6 +402,9 @@
   border-color: rgb(59, 54, 54) rgb(59, 54, 54) rgb(38, 213, 38) rgb(59, 54, 54);
   cursor: pointer;
 }
+.AdminEditButton{
+  color: #fff;
+}
 
 /*Product */
 .ProductHeading {
@@ -422,6 +430,7 @@
   padding: 0.6rem;
   width: 9rem;
   text-align: center;
+  cursor: pointer;
 
 }
 

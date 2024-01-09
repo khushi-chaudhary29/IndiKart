@@ -8,6 +8,7 @@ import { LuShoppingCart } from "react-icons/lu";
 import { IoBagSharp } from "react-icons/io5";
 import { FaUser } from "react-icons/fa";
 import DasOrder from '@/components/dashboard/DasOrder';
+import Link from 'next/link';
 
 const Admin = () => {
   return (
@@ -40,7 +41,7 @@ const Admin = () => {
         </div>
         <div className={styles.AdminButton}>
           <div className={styles.AdminProductB}>
-            <button className={styles.AdminProductButton}><LuShoppingCart style={{ width: '1.5rem', height: '1.5rem' }} /> Products</button>
+            <Link href='#'> <button className={styles.AdminProductButton}><LuShoppingCart style={{ width: '1.5rem', height: '1.5rem' }} /> Products</button> </Link>
           </div>
           <div className={styles.AdminProductO}>
             <button className={styles.AdminOrderButton}><IoBagSharp style={{ width: '1.5rem', height: '1.5rem' }} /> Order</button>

@@ -26,15 +26,14 @@ const Footer = () => {
               <h4>CUSTOMER SERVICES</h4>
               <ul>
                 <li><a href="#">SHIPPING</a></li>
-                <li><a href="#">RETURN POLICY</a></li>
+                <li><Link href="/returnpolicy">RETURN POLICY</Link></li>
               </ul>
             </div>
             <div className="footer-col">
               <h4>COMPANY</h4>
               <ul>
-                <li><a href="#">ABOUT US</a></li>
-                <li><a href="#">PRIVACY POLICY</a></li>
-                <li><a href="#">CONTACT US</a></li>
+                <li><Link href="/about">ABOUT US</Link></li>
+                <li><Link href="/contact">CONTACT US</Link></li>
               </ul>
             </div>
             
@@ -49,10 +48,10 @@ const Footer = () => {
             <h3>IndiKart</h3>
           </div>
           <div className="social-links">
-            <CiFacebook style={{ width: '2rem', height: '2rem'}} />
-            <CiInstagram style={{ width: '2rem', height: '2rem' }} />
-            <CiTwitter style={{ width: '2rem', height: '2rem' }} />
-            <CiLinkedin style={{ width: '2rem', height: '2rem' }} />
+            <Link href='#'> <CiFacebook style={{ width: '2rem', height: '2rem'}} /></Link>
+            <Link href='#'><CiInstagram style={{ width: '2rem', height: '2rem' }} /></Link>
+            <Link href='#'><CiTwitter style={{ width: '2rem', height: '2rem' }} /></Link> 
+            <Link href='https://www.linkedin.com/company/indibus23/'><CiLinkedin style={{ width: '2rem', height: '2rem' }} /></Link> 
 
           </div>
         </div>
