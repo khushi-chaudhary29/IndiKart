@@ -692,74 +692,6 @@
   padding: 0.7rem;
 }
 
-/*model*/
-.container_form {
-  position: relative;
-  top: 8rem;
-  margin: 10rem;
-  margin-left: 38rem;
-  background-color: white;
-  height: 26rem;
-  width: 20rem;
-  margin-top: 1rem;
-  border-radius: 1rem;
-  font-weight: 700;
-
-}
-
-.abc {
-  position: relative;
-  top: 0.5rem;
-}
-
-.fullname {
-
-  border-radius: .4rem;
-  margin-left: .5rem;
-  height: 2rem;
-  width: 18rem;
-}
-
-.address {
-  border-radius: .4rem;
-  margin-left: .5rem;
-  height: 2rem;
-  width: 18rem;
-}
-
-.Mo.numbe {
-  border-radius: .4rem;
-  margin-left: .5rem;
-  height: 2rem;
-  width: 18rem;
-}
-
-.pinnumber {
-  border-radius: .4rem;
-  margin-left: .5rem;
-  height: 2rem;
-  width: 18rem;
-}
-
-.mobile_no {
-  border-radius: .4rem;
-  margin-left: .5rem;
-  height: 2rem;
-  width: 18rem;
-}
-
-.Modalbutton {
-  display: flex;
-  margin-top: 1rem;
-  justify-content: center;
-  height: 2rem;
-  width: 18rem;
-  border-radius: .4rem;
-  text-align: center;
-  align-items: center;
-  margin-left: 1rem;
-  background-color: blueviolet;
-}
 
 /*contact*/
 .containerform {
@@ -947,10 +879,56 @@
 }
 
 /* Order */
-.OderLeft{
+.OderLeft {
   height: 57.5vh;
   display: flex;
   justify-content: center;
-  margin-top: 3rem ;
-  
+  margin-top: 3rem;
+
+}
+
+/*Modal*/
+.ModalContainer {
+  position: relative;
+  top: 3rem;
+  margin: 10rem;
+  margin-left: 46rem;
+  background-color: white;
+  height: 33rem;
+  width: 21rem;
+  margin-top: 1rem;
+  border-radius: 1rem;
+  font-weight: 700;
+  padding: 1rem;
+
+}
+
+.ModalName {
+  color: black;
+  margin-left: 1rem;
+}
+
+.ModalProductAbout {
+  background-color: rgb(214, 204, 204);
+  border-radius: 0.4rem;
+  border: rgb(91, 80, 80);
+  margin-left: 1rem;
+  width: 18rem;
+  height: 2rem;
+  margin-top: 0.3rem;
+  margin-bottom: 0.3rem;
+  color: black;
+  padding: 0.6rem;
+
+}
+
+.ModalButton {
+  background-color: rgb(172, 65, 172);
+  border: solid rgb(172, 65, 172);
+  border-radius: 0.4rem;
+  width: 19rem;
+  color: white;
+  font-weight: 3rem;
+  margin-left: 1rem;
+  padding: 0.7rem;
 }

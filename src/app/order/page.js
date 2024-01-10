@@ -19,6 +19,7 @@ const Order = () => {
           <RiDeleteBin6Line className={styles.cartDelete} />
         </div>
       </div>
+    
     </main>
   )
 }

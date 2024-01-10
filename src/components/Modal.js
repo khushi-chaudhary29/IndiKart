@@ -3,20 +3,23 @@ import styles from '../app/page.module.css'
 
 const Modal = () => {
   return (
-    <div>
-      <div className={styles.container_form}>
-        <form>
-          <p className="abc">Enter Full Name</p>
-          <input type="text" className={styles.fullname} />
-          <p>Enter Full Address</p>
-          <input type="text" className={styles.address} />
-          <p>Enter Pincode</p>
-          <input type="number" className={styles.pinnumber} />
-          <p>Enter Mobile number</p>
-          <input type="number" className={styles.mobile_no} />
-        </form>
-        <button class={styles.Modalbutton}>Buy Now</button>
-      </div>
+    <div className={styles.ModalContainer}>
+      <p className={styles.ModalName}>Enter Full Name</p>
+      <input className={styles.ModalProductAbout} type="text" name="txt_name" placeholder='Full Name'></input>
+      <br></br>
+      <p className={styles.ModalName}>Enter Full Address</p>
+      <input className={styles.ModalProductAbout} type="text" name="txt_name" placeholder='Full Address'></input>
+      <br></br>
+      <p className={styles.ModalName}>Enter Pincode</p>
+      <input className={styles.ModalProductAbout} type="text" name="txt_name" placeholder='Pincode'></input>
+      <br></br>
+      <p className={styles.ModalName}>Enter Mobile Number</p>
+      <input className={styles.ModalProductAbout} type="text" name="txt_name" placeholder='Mobile Number'></input>
+      <br></br>
+
+      <br></br>
+      <button className={styles.ModalButton}>Order Now</button>
+
     </div>
   )
 }
