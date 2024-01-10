@@ -1,8 +1,11 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import styles from '../app/page.module.css'
 import Link from 'next/link'
+/* import myContext from '@/app/context/data/myContext' */
 
 const ProductCard = () => {
+  /* const context = useContext(myContext)
+  const {product} = context */
   return (
     <main className='main'>
       <div className={styles.ProductCard}>
