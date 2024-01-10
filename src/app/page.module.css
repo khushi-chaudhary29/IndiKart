@@ -696,15 +696,15 @@
 /*contact*/
 .containerform {
   position: relative;
-  top: 8rem;
-  margin: 10rem;
-  margin-left: 38rem;
+  align-items: center;
+  top: 2rem;
+  margin: 9rem;
+  margin-left: 43rem;
   background-color: white;
-  height: 28rem;
-  width: 30rem;
+  height: 31rem;
+  width: 29rem;
   margin-top: 1rem;
   border-radius: 1rem;
-  font-weight: 700;
 }
 
 .Cartheading {
@@ -712,6 +712,14 @@
   justify-content: center;
   padding-top: 2rem;
   font-size: 1.5rem;
+  color: black;
+}
+
+.Contactpara {
+  display: flex;
+  color: black;
+  justify-content: center;
+  font-size: 0.9rem;
 }
 
 .fullname {
@@ -816,35 +824,32 @@
   margin-left: 55rem;
 }
 
-/* About*/
-.Aboutheading {
-  width: 90%;
-  justify-content: center;
-  align-items: center;
+/*ABOUT US AND RETURN*/
+.AboutUshr {
+  width: 40rem;
+}
+
+.MainAboutContainer {
+  border: solid;
+  width: 60rem;
+  height: 30rem;
+  margin: auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding: 3rem;
+  background-image: linear-gradient(to top right, gray, black);
   text-align: center;
-  margin: 5rem auto;
-  padding: 5rem;
 }
 
-.Aboutheading h1 {
-  font-size: 4rem;
-  margin-bottom: 2.5rem;
-  position: relative;
+.MainAboutheading {
+  text-shadow: #0d0c0c;
+  text-align: center;
 }
 
-.Aboutheading h1::after {
-  content: "";
-  width: 20%;
-  height: 1.5rem;
-  display: block;
-  margin: 0 auto;
-  background-color: #e91e;
-
-}
-
-.Aboutheading p {
-  font-size: 2rem;
-  color: black;
+.MainAboutpara {
+  text-align: justify;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1.5rem;
 }
 
 /* return */
