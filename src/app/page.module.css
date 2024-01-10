@@ -695,16 +695,17 @@
 
 /*contact*/
 .containerform {
-  position: relative;
+  align-content: center;
   align-items: center;
   top: 2rem;
   margin: 9rem;
   margin-left: 43rem;
-  background-color: white;
-  height: 31rem;
-  width: 29rem;
+  background-image: linear-gradient(to top right, rgb(237, 216, 216), rgb(87, 78, 78), gray);
+  height: 40rem;
+  width: 30.5rem;
   margin-top: 1rem;
   border-radius: 1rem;
+  margin-bottom: 2rem;
 }
 
 .Cartheading {
@@ -722,39 +723,25 @@
   font-size: 0.9rem;
 }
 
-.fullname {
+.ContactInfo {
   border-radius: 1rem;
   margin-left: .5rem;
   height: 2rem;
   width: 25rem;
   margin-left: 2.5rem;
   margin-bottom: 1rem;
+  padding: 0.3rem;
+  border: solid rgb(185, 168, 168);
+  background-color: rgb(185, 168, 168);
 }
 
-.email {
-  border-radius: 1rem;
-  margin-left: .5rem;
-  height: 2rem;
-  width: 25rem;
-  margin-bottom: 1rem;
-  margin-left: 2.5rem;
-}
-
-.number {
-  border-radius: 1rem;
-  margin-left: .5rem;
-  height: 2rem;
-  width: 25rem;
-  margin-bottom: 1rem;
-  margin-left: 2.5rem;
-}
-
-.query {
+.ContactQuery {
   border-radius: .8rem;
-  height: 4rem;
-  width: 22.5rem;
   margin-bottom: 1rem;
-  margin-left: 4rem;
+  margin-left: 2.5rem;
+  background-color: rgb(244, 236, 236);
+  padding: 0.4rem;
+  border: solid rgb(244, 236, 236);
 }
 
 .Contactbutton {
@@ -767,14 +754,17 @@
   text-align: center;
   align-items: center;
   margin-left: 8rem;
-  background-color: blueviolet;
+  background-color: rgb(56, 55, 50);
+  border: solid rgb(56, 55, 50);
+  color: white;
 }
 
 .contactus {
 
   text-align: center;
   align-items: center;
-  margin-top: 1.5rem;
+  margin-top: 1rem;
+  color: black;
 }
 
 /* Product Info*/

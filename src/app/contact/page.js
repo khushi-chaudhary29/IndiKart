@@ -7,10 +7,11 @@ const Contact = () => {
       <h3 className={styles.Cartheading}>Contact Us</h3>
       <h6 className={styles.Contactpara}>You'll hear from us at the earliest!</h6>
       <form action="#" method="post">
-        <input type="text" className={styles.fullname} placeholder="full Name" />
-        <input type="email" className={styles.email} placeholder="Email" />
-        <input type="number" className={styles.number} placeholder="Phone" />
-        <input type="text" className={styles.query} placeholder="Any comment or your query" />
+        <input type="text" className={styles.ContactInfo} placeholder="Full Name" />
+        <input type="email" className={styles.ContactInfo} placeholder="Email" />
+        <input type="number" className={styles.ContactInfo} placeholder="Phone" />
+        <textarea className={styles.ContactQuery} name="txt_qry" rows="10" cols="52" placeholder='Any comment on your query'></textarea>
+
       </form>
       <button className={styles.Contactbutton}>Send</button>
       <p className={styles.contactus}>You can also contact us at 181-1711-322</p>
