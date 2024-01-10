@@ -10,7 +10,7 @@ const Contact = () => {
         <input type="text" className={styles.ContactInfo} placeholder="Full Name" />
         <input type="email" className={styles.ContactInfo} placeholder="Email" />
         <input  className={styles.ContactInfo} placeholder="Phone" />
-        <textarea className={styles.ContactQuery} name="txt_qry" rows="10" cols="52" placeholder='Any comment on your query'></textarea>
+        <textarea className={styles.ContactQuery} name="txt_qry" rows="7" cols="35" placeholder='Any comment on your query'></textarea>
 
       </form>
       <button className={styles.Contactbutton}>Send</button>

@@ -700,7 +700,7 @@
   top: 2rem;
   margin: 9rem;
   margin-left: 43rem;
-  background-image: linear-gradient(to top right, rgb(237, 216, 216), rgb(87, 78, 78), gray);
+  background: linear-gradient(to top right, rgb(175, 171, 171), rgb(87, 78, 78), gray);
   height: 40rem;
   width: 30.5rem;
   margin-top: 1rem;
@@ -712,7 +712,7 @@
   display: flex;
   justify-content: center;
   padding-top: 2rem;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   color: black;
 }
 
@@ -733,15 +733,17 @@
   padding: 0.3rem;
   border: solid rgb(185, 168, 168);
   background-color: rgb(185, 168, 168);
+  font-size: 1.2rem;
 }
 
 .ContactQuery {
   border-radius: .8rem;
   margin-bottom: 1rem;
   margin-left: 2.5rem;
-  background-color: rgb(244, 236, 236);
+  background-color: rgb(185, 168, 168);
   padding: 0.4rem;
-  border: solid rgb(244, 236, 236);
+  font-size: 1.2rem;
+
 }
 
 .Contactbutton {
@@ -757,6 +759,8 @@
   background-color: rgb(56, 55, 50);
   border: solid rgb(56, 55, 50);
   color: white;
+  cursor: pointer;
+  font-size: 1.2rem;
 }
 
 .contactus {
@@ -827,7 +831,7 @@
   margin-top: 2rem;
   margin-bottom: 2rem;
   padding: 3rem;
-  background-image: linear-gradient(to top right, gray, black);
+  background: linear-gradient(to top right, gray, black);
   text-align: center;
 }
 
@@ -884,14 +888,14 @@
 
 /*Modal*/
 .ModalContainer {
-  position: relative;
+  position: fixed;
   top: 3rem;
   margin: 10rem;
   margin-left: 46rem;
   background-color: white;
   height: 33rem;
   width: 21rem;
-  margin-top: 1rem;
+  margin-top: 5rem;
   border-radius: 1rem;
   font-weight: 700;
   padding: 1rem;
@@ -926,4 +930,15 @@
   font-weight: 3rem;
   margin-left: 1rem;
   padding: 0.7rem;
+  cursor: pointer;
+}
+
+.modal_wrapper{
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  background-color: rgba(70, 67, 67, 0.9);
+
 }

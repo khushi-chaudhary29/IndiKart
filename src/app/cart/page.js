@@ -1,8 +1,14 @@
-import React from 'react'
+'use client'
+import { useState } from 'react'
 import styles from '../page.module.css'
 import { RiDeleteBin6Line } from "react-icons/ri";
+import Modal from '@/components/Modal';
 
 const Cart = () => {
+  const [showModal,setShowModal] = useState(false);
+  const closeModal=()=>{
+    return setShowModal(false)
+  }
   return (
     <main className='main'>
       <div className={styles.cartContainer}>
@@ -43,12 +49,13 @@ const Cart = () => {
               </div>
 
               <div className={styles.cartbutton}>
-                <button className={styles.Cartbutton}>Buy Now</button>
+                <button className={styles.Cartbutton} onClick={()=>setShowModal(true)}>Buy Now</button>
               </div>
 
             </div>
           </div>
         </div>
+        {showModal && <Modal closeModal ={closeModal}/>}
       </div>
 
     </main>
