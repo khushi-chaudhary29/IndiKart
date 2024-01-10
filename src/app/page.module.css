@@ -107,7 +107,7 @@
 }
 
 .PCmainheadinghr {
-  border: 2px solid palevioletred;
+  border: 2px solid #e91e;
   margin: 20px 0px;
   width: 05rem;
 
@@ -144,8 +144,8 @@
 }
 
 .PCbutton {
-  background-color: palevioletred;
-  border: solid palevioletred;
+  background-color: #e91e;
+  border: solid #e91e;
   border-radius: 0.4rem;
   width: 18rem;
   color: white;
@@ -170,13 +170,14 @@
   max-width: 20rem;
   width: 90%;
   transform: translate(-50%, -50%);
-  background: #fff;
+  background: linear-gradient(to top right, rgb(175, 171, 171), rgb(87, 78, 78), gray);
   top: 40%;
   left: 50%;
   position: absolute;
   padding: 1rem;
   text-align: center;
   border-radius: 1rem;
+
 
 }
 
@@ -189,29 +190,28 @@
 
 .input {
   width: 80%;
-
   background: transparent;
   margin: .5rem;
-  border-radius: .5rem;
-  border: 1px solid #000;
   padding: .6rem;
-
-
+  padding: 0.3rem;
+  border: solid rgb(185, 168, 168);
+  background-color: rgb(185, 168, 168);
+  font-size: 1.2rem;
 
 }
 
 
 .btn button {
   width: 90%;
-  background-color: #e91e;
-  color: #fff;
   height: 2.3rem;
-  border: 0;
   outline: 0;
   cursor: pointer;
   margin-top: .5rem;
   border-radius: .5rem;
   font-size: 1.5rem;
+  background-color: rgb(56, 55, 50);
+  border: solid rgb(56, 55, 50);
+  color: white;
 
 
 }
@@ -222,7 +222,7 @@
 
 .SignupLink {
   text-decoration: none;
-  color: red;
+  color: rgb(108, 47, 7);
 }
 
 /*Track*/
@@ -243,7 +243,7 @@
 
 .TrackBaglogo {
   text-align: center;
-  color: palevioletred;
+  color: #e91e;
   font-size: 3rem;
   margin-top: 1rem;
   margin-bottom: 0.8rem;
@@ -285,6 +285,11 @@
 
 .TestimonialSPD {
   width: 30rem;
+  border-radius: 0.6rem;
+  border: solid 0.2rem gray;
+  background-color: rgb(59, 54, 54);
+  margin-bottom: 2rem;
+  padding: 1rem;
 }
 
 .TestimonialSPDlogo {
@@ -293,6 +298,11 @@
 
 .TestimonialUID {
   width: 30rem;
+  border-radius: 0.6rem;
+  border: solid 0.2rem gray;
+  background-color: rgb(59, 54, 54);
+  margin-bottom: 2rem;
+  padding: 1rem;
 }
 
 .TestimonialUIDlogo {
@@ -301,6 +311,11 @@
 
 .TestimonialCTO {
   width: 30rem;
+  border-radius: 0.6rem;
+  border: solid 0.2rem gray;
+  background-color: rgb(59, 54, 54);
+  margin-bottom: 2rem;
+  padding: 1rem;
 }
 
 .TestimonialCTOlogo {
@@ -309,13 +324,13 @@
 
 .TestimonialUIDhr {
   width: 3rem;
-  border: 2px solid palevioletred;
+  border: 2px solid #e91e;
   border-radius: 1rem;
 
 }
 
 .TestimonialUIDname {
-  color: rgb(208, 79, 122);
+  color: #e91e;
 
 }
 
@@ -539,10 +554,12 @@
   margin-bottom: 11rem;
 }
 
-.Cartheading {
+.Cartmainheading {
   font-size: 3rem;
   text-align: center;
   justify-content: center;
+  color: #ffffff;
+  
 }
 
 .cart {
@@ -562,16 +579,19 @@
   background-color: #332f2f;
   border-radius: 1rem;
   display: flex;
-  width: 40rem;
-  height: 12rem;
+  width: 53rem;
+  height: 13rem;
 }
 
 .leftcontainer img {
   border-radius: .8rem;
+  height: 10rem;
+  width: 10rem;
 }
 
 .cartcantainerdetails {
   padding-left: 1rem;
+  height: 0rem;
 }
 
 .desc {
@@ -592,7 +612,7 @@
 
 .cartcontainer1 {
   display: flex;
-  background-color: #332f2f;
+  background: linear-gradient(to top right, rgb(175, 171, 171), rgb(87, 78, 78), gray);
   flex-direction: column;
   width: 20rem;
   height: 15rem;
@@ -631,9 +651,11 @@
 }
 
 .Cartbutton {
-  background-color: blueviolet;
-  border-radius: .5rem;
-  font-size: 1rem;
+  background-color: rgb(56, 55, 50);
+  border: solid rgb(56, 55, 50);
+  color: white;
+  cursor: pointer;
+  font-size: 1.2rem;
   border: none;
   cursor: pointer;
   width: 16rem;
@@ -643,12 +665,15 @@
 
 /*AddProduct*/
 .AddProductContainer {
-  background-color: rgb(59, 54, 54);
+  background: linear-gradient(to top right, rgb(175, 171, 171), rgb(87, 78, 78), gray);
   border-radius: 1rem;
-  width: 20rem;
-  height: 32rem;
+  width: 28rem;
+  height: 42rem;
   margin: auto;
   margin-bottom: 3.8rem;
+  border: solid rgb(185, 168, 168);
+  background-color: rgb(185, 168, 168);
+  font-size: 1.2rem;
 
 
 }
@@ -656,39 +681,46 @@
 .AddProductHeading {
   text-align: center;
   padding-top: 3rem;
+  color: black;
 }
 
 .AddProductAbout {
-  background-color: rgb(91, 80, 80);
+  
   border-radius: 0.4rem;
-  border: rgb(91, 80, 80);
   margin-left: 1rem;
-  width: 18rem;
+  width: 25rem;
   height: 2rem;
   margin-top: 0.3rem;
   margin-bottom: 0.3rem;
-  color: white;
+  color: black;
+  border: solid rgb(185, 168, 168);
+  background-color: rgb(185, 168, 168);
+  font-size: 1.2rem;
 
 
 }
 
 .AddProductTextArea {
-  background-color: rgb(91, 80, 80);
+  background-color: rgb(185, 168, 168);
   margin-left: 1rem;
   border-radius: 0.4rem;
   margin-top: 1rem;
   margin-bottom: 1rem;
-  border: rgb(91, 80, 80);
-  color: white;
+  border: solid rgb(185, 168, 168);
+  color: black;
+  font-size: 1.2rem;
 }
 
 .AddProductButton {
-  background-color: rgb(188, 150, 44);
-  border: solid rgb(188, 150, 44);
+  background-color: rgb(56, 55, 50);
+  border: solid rgb(56, 55, 50);
+  color: white;
+  cursor: pointer;
+  font-size: 1.2rem;
   border-radius: 0.4rem;
   width: 18rem;
   color: black;
-  margin-left: 1rem;
+  margin-left: 5rem;
   padding: 0.7rem;
 }
 
@@ -774,33 +806,32 @@
 /* Product Info*/
 .smallcontainer {
   margin: 6.25rem auto;
-  width: 75%;
+  width: 80%;
 }
 
 .PIimage {
-  max-width: 18rem;
+  max-width: 20rem;
+  height: 20.4rem;
   float: left;
   border-radius: 0.1rem;
   margin-right: 1.8rem;
-  border: 2rem solid black;
+  border: 0.2rem solid;
 }
 
 .col_2 h3 {
   font-size: 1.25rem;
-  padding: 1.25rem;
   color: rgb(101, 99, 99);
   margin-top: 2rem;
 }
 
 .col_2 h4 {
   font-size: 1.12rem;
-  padding: 1.25rem;
+  padding: 1rem;
   color: #e91e;
 }
 
 .col_2 p {
-  font-size: 1rem;
-  padding: 1.25rem;
+  font-size: 1.3rem;
   color: #fff;
 
 }
@@ -809,13 +840,21 @@
   border-bottom: 2rem solid black;
   width: 2rem;
 }
+.like{
+  float: right;
+  margin-top: 1rem;
+  width: 4rem;
+  height: 4rem;
+  margin-right: 1rem;
+}
 
 .col_2 button {
   padding: 1.25rem;
   color: black;
   background-color: #e91e;
   margin-top: 1.2rem;
-  margin-left: 55rem;
+  float: right;
+  cursor: pointer;
 }
 
 /*ABOUT US AND RETURN*/
@@ -892,8 +931,8 @@
   top: 3rem;
   margin: 10rem;
   margin-left: 46rem;
-  background-color: white;
-  height: 33rem;
+  background: linear-gradient(to top right, rgb(175, 171, 171), rgb(87, 78, 78), gray);
+  height: 35rem;
   width: 21rem;
   margin-top: 5rem;
   border-radius: 1rem;
@@ -908,9 +947,7 @@
 }
 
 .ModalProductAbout {
-  background-color: rgb(214, 204, 204);
   border-radius: 0.4rem;
-  border: rgb(91, 80, 80);
   margin-left: 1rem;
   width: 18rem;
   height: 2rem;
@@ -918,12 +955,18 @@
   margin-bottom: 0.3rem;
   color: black;
   padding: 0.6rem;
+  border: solid rgb(185, 168, 168);
+  background-color: rgb(185, 168, 168);
+  font-size: 1.2rem;
 
 }
 
 .ModalButton {
-  background-color: rgb(172, 65, 172);
-  border: solid rgb(172, 65, 172);
+  background-color: rgb(56, 55, 50);
+  border: solid rgb(56, 55, 50);
+  color: white;
+  cursor: pointer;
+  font-size: 1.2rem;
   border-radius: 0.4rem;
   width: 19rem;
   color: white;
@@ -933,7 +976,7 @@
   cursor: pointer;
 }
 
-.modal_wrapper{
+.modal_wrapper {
   position: fixed;
   left: 0;
   right: 0;

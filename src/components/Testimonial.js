@@ -9,7 +9,7 @@ const Testimonial = () => {
     <div>
       <div className={styles.mainTestimonial}>
         <h2 className={styles.Testimonialheading}>Testimonial</h2>
-        <h3 className={styles.Testimonialsubheading}>What our <span style={{ color: 'palevioletred' }}>customers</span> are saying</h3>
+        <h3 className={styles.Testimonialsubheading}>What our <span style={{ color: '#e91e' }}>customers</span> are saying</h3>
         <div className={styles.Testimonialcontent}>
           <div className={styles.TestimonialSPD}>
             <p className={styles.TestimonialSPDlogo}><GiPyromaniac style={{ width: '5rem', height: '5rem' }} /></p>
