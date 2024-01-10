@@ -189,7 +189,7 @@
 }
 
 .input {
-  width: 80%;
+  width: 85%;
   background: transparent;
   margin: .5rem;
   padding: .6rem;
@@ -197,6 +197,7 @@
   border: solid rgb(185, 168, 168);
   background-color: rgb(185, 168, 168);
   font-size: 1.2rem;
+  border-radius: .5rem;
 
 }
 
@@ -670,10 +671,11 @@
   width: 28rem;
   height: 42rem;
   margin: auto;
-  margin-bottom: 3.8rem;
+  margin-bottom: 3rem;
   border: solid rgb(185, 168, 168);
   background-color: rgb(185, 168, 168);
   font-size: 1.2rem;
+  margin-top: 1rem;
 
 
 }
@@ -719,7 +721,7 @@
   font-size: 1.2rem;
   border-radius: 0.4rem;
   width: 18rem;
-  color: black;
+  color: #fff;
   margin-left: 5rem;
   padding: 0.7rem;
 }
@@ -984,4 +986,162 @@
   top: 0;
   background-color: rgba(70, 67, 67, 0.9);
 
+}
+
+
+
+@media (max-width: 1450px) {
+
+  .PCCard {
+    width: 15rem;
+    height: 26rem;
+  }
+
+  .PCimage {
+    width: 86%;
+
+  }
+
+  .PCcardcontent {
+    margin-left: .8rem;
+  }
+
+  .PCbutton {
+    width: 90%;
+
+  }
+
+}
+
+@media (max-width: 1250px) {
+
+  .PCCard {
+    width: 12rem;
+    height: 26rem;
+  }
+
+  .PCimage {
+    width: 85%;
+
+  }
+
+  .PCcardcontent {
+    margin-left: .8rem;
+  }
+
+  .PCbutton {
+    width: 90%;
+
+  }
+
+}
+
+@media (max-width: 1005px) {
+
+  .PCCardContainer {
+    flex-direction: column;
+  }
+
+  .PCCard {
+    width: 20rem;
+    height: 26rem;
+  }
+
+  .PCimage {
+    width: 90%;
+
+  }
+
+  .PCcardcontent {
+    margin-left: .8rem;
+  }
+
+  .PCbutton {
+    width: 90%;
+
+  }
+
+}
+
+@media (max-width: 768px) {
+
+  .form_box {
+    margin-top: 20rem;
+
+
+  }
+}
+
+@media (max-width: 1200px) {
+
+  .leftcontainer {
+    width: 35rem;
+
+
+  }
+}
+@media (max-width: 1055px) {
+
+  .leftcontainer {
+    width: 25rem;
+    height: 22rem;
+
+  }
+}
+
+@media (max-width: 768px) {
+  .cart {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .leftcontainer {
+    width: 25rem;
+    height: 22rem;
+
+  }
+}
+
+@media (max-width: 1395px) {
+  .TrackBag {
+
+    width: 20rem;
+
+  }
+}
+
+@media (max-width: 1080px) {
+  .TrackBag {
+
+    width: 18rem;
+
+  }
+}
+
+@media (max-width: 1000px) {
+  .maintrack {
+    flex-direction: column;
+  }
+}
+
+
+@media (max-width: 1520px) {
+  .TestimonialSPD {
+    width: 20rem;
+  }
+
+  .TestimonialUID {
+    width: 20rem;
+  }
+
+  .TestimonialCTO {
+    width: 20rem;
+  }
+
+}
+
+@media (max-width: 1080px) {
+  .Testimonialcontent {
+    flex-direction: column;
+  }
 }

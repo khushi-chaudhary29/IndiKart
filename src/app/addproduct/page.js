@@ -14,7 +14,7 @@ const AddProduct = () => {
         <br></br>
         <input className={styles.AddProductAbout} type="text" name="txt_name" placeholder='Product category'></input>
         <br></br>
-        <textarea className={styles.AddProductTextArea} name="txt_qry" rows="10" cols="36" placeholder='Product desc'></textarea>
+        <textarea className={styles.AddProductTextArea} name="txt_qry" rows="10" cols="35" placeholder='Product desc'></textarea>
         <br></br>
         <button className={styles.AddProductButton}>Add Product</button>
       </div>
