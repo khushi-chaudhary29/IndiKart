@@ -648,7 +648,7 @@
   width: 20rem;
   height: 32rem;
   margin: auto;
-  margin-bottom: 2rem;
+  margin-bottom: 3.8rem;
 
 
 }
@@ -944,4 +944,13 @@
 .Returnheading p {
   font-size: 2rem;
   color: black;
+}
+
+/* Order */
+.OderLeft{
+  height: 57.5vh;
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem ;
+  
 }

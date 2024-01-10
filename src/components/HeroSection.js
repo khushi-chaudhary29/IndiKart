@@ -5,9 +5,7 @@ const HeroSection = () => {
   return (
     <main className={styles.main}>
      
-        <img className={styles.img} src='./herosection image.jpg'
-         
-        />
+        <img className={styles.img} src='./herosection image.jpg'/>
    
     </main>
   )

@@ -4,16 +4,16 @@ import styles from '../page.module.css'
 const About = () => {
   return (
     <main className='main'>
-       <div className={styles.Aboutheading}>
+      <div className={styles.Aboutheading}>
         <h1>About Us</h1>
-        <p>Welcome to E-Indibus, where shopping meets convenience! 
-            Our mission is to redefine your online shopping experience by offering a curated selection of high-quality products at unbeatable prices. 
-            At the heart of our e-cart, we prioritize your satisfaction, striving to make your every purchase seamless and enjoyable.
-            Dive into a world of endless choices, from the latest trends to timeless classics, all conveniently at your fingertips. 
-            We take pride in our commitment to customer service, ensuring prompt deliveries and hassle-free returns. 
-            Discover the joy of effortless shopping with our user-friendly interface, secure payment options, and dedicated customer support.</p>
+        <p>Welcome to E-Indibus, where shopping meets convenience!
+          Our mission is to redefine your online shopping experience by offering a curated selection of high-quality products at unbeatable prices.
+          At the heart of our e-cart, we prioritize your satisfaction, striving to make your every purchase seamless and enjoyable.
+          Dive into a world of endless choices, from the latest trends to timeless classics, all conveniently at your fingertips.
+          We take pride in our commitment to customer service, ensuring prompt deliveries and hassle-free returns.
+          Discover the joy of effortless shopping with our user-friendly interface, secure payment options, and dedicated customer support.</p>
 
-    </div>
+      </div>
     </main>
   )
 }

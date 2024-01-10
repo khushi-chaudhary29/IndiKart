@@ -41,7 +41,7 @@ const Admin = () => {
         </div>
         <div className={styles.AdminButton}>
           <div className={styles.AdminProductB}>
-            <Link href='#'> <button className={styles.AdminProductButton}><LuShoppingCart style={{ width: '1.5rem', height: '1.5rem' }} /> Products</button> </Link>
+            <button className={styles.AdminProductButton}><LuShoppingCart style={{ width: '1.5rem', height: '1.5rem' }} /> Products</button> 
           </div>
           <div className={styles.AdminProductO}>
             <button className={styles.AdminOrderButton}><IoBagSharp style={{ width: '1.5rem', height: '1.5rem' }} /> Order</button>

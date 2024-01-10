@@ -48,9 +48,9 @@ const Footer = () => {
             <h3>IndiKart</h3>
           </div>
           <div className="social-links">
-            <Link href='#'> <CiFacebook style={{ width: '2rem', height: '2rem'}} /></Link>
-            <Link href='#'><CiInstagram style={{ width: '2rem', height: '2rem' }} /></Link>
-            <Link href='#'><CiTwitter style={{ width: '2rem', height: '2rem' }} /></Link> 
+            
+            <Link href='https://www.instagram.com/indibus23/?igshid=NzZhOTFlYzFmZQ%3D%3D'><CiInstagram style={{ width: '2rem', height: '2rem' }} /></Link>
+            <Link href='https://twitter.com/i/flow/login?redirect_after_login=%2Findibus23'><CiTwitter style={{ width: '2rem', height: '2rem' }} /></Link> 
             <Link href='https://www.linkedin.com/company/indibus23/'><CiLinkedin style={{ width: '2rem', height: '2rem' }} /></Link> 
 
           </div>
