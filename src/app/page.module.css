@@ -536,10 +536,10 @@
 
 /* Cart */
 .cartContainer {
-  margin-bottom: 10rem;
+  margin-bottom: 11rem;
 }
 
-.heading {
+.Cartheading {
   font-size: 3rem;
   text-align: center;
   justify-content: center;
@@ -630,7 +630,7 @@
 
 }
 
-.button {
+.Cartbutton {
   background-color: blueviolet;
   border-radius: .5rem;
   font-size: 1rem;
@@ -748,7 +748,7 @@
   width: 18rem;
 }
 
-.button {
+.Modalbutton {
   display: flex;
   margin-top: 1rem;
   justify-content: center;
@@ -775,7 +775,7 @@
   font-weight: 700;
 }
 
-.heading {
+.Cartheading {
   display: flex;
   justify-content: center;
   padding-top: 2rem;
@@ -817,7 +817,7 @@
   margin-left: 4rem;
 }
 
-.button {
+.Contactbutton {
   display: flex;
   margin-top: 1rem;
   justify-content: center;
@@ -885,7 +885,7 @@
 }
 
 /* About*/
-.heading {
+.Aboutheading {
   width: 90%;
   justify-content: center;
   align-items: center;
@@ -894,13 +894,13 @@
   padding: 5rem;
 }
 
-.heading h1 {
+.Aboutheading h1 {
   font-size: 4rem;
   margin-bottom: 2.5rem;
   position: relative;
 }
 
-.heading h1::after {
+.Aboutheading h1::after {
   content: "";
   width: 20%;
   height: 1.5rem;
@@ -910,13 +910,13 @@
 
 }
 
-.heading p {
+.Aboutheading p {
   font-size: 2rem;
   color: black;
 }
 
 /* return */
-.heading {
+.Returnheading {
   width: 90%;
   justify-content: center;
   align-items: center;
@@ -925,13 +925,13 @@
   padding: 5rem;
 }
 
-.heading h1 {
+.Returnheading h1 {
   font-size: 4rem;
   margin-bottom: 2.5rem;
   position: relative;
 }
 
-.heading h1::after {
+.Returnheading h1::after {
   content: "";
   width: 20%;
   height: 1.5rem;
@@ -941,7 +941,7 @@
 
 }
 
-.heading p {
+.Returnheading p {
   font-size: 2rem;
   color: black;
 }

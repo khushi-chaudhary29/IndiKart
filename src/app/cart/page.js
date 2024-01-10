@@ -6,7 +6,7 @@ const Cart = () => {
   return (
     <main className='main'>
       <div className={styles.cartContainer}>
-        <h1 className={styles.heading}>Cart Item</h1>
+        <h1 className={styles.Cartheading}>Cart Item</h1>
         <div className={styles.cart}>
           <div className={styles.cart}>
             <div className={styles.cartLeft}>
@@ -43,7 +43,7 @@ const Cart = () => {
               </div>
 
               <div className={styles.cartbutton}>
-                <button className={styles.button}>Buy Now</button>
+                <button className={styles.Cartbutton}>Buy Now</button>
               </div>
 
             </div>

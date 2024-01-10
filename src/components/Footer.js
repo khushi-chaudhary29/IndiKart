@@ -11,7 +11,7 @@ import { CiLinkedin } from "react-icons/ci";
 const Footer = () => {
   return (
     <main className='main'>
-      <footer class="footer">
+      <footer className="footer">
         <div className="container">
           <div className="row">
             <div className="footer-col">

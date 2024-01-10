@@ -4,7 +4,7 @@ import styles from '../page.module.css'
 const About = () => {
   return (
     <main className='main'>
-       <div className={styles.heading}>
+       <div className={styles.Aboutheading}>
         <h1>About Us</h1>
         <p>Welcome to E-Indibus, where shopping meets convenience! 
             Our mission is to redefine your online shopping experience by offering a curated selection of high-quality products at unbeatable prices. 
