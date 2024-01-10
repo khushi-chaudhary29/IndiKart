@@ -13,7 +13,7 @@ const UpdateProduct = () => {
         <br></br>
         <input className={styles.AddProductAbout} type="text" name="txt_name" placeholder='Product category'></input>
         <br></br>
-        <textarea className={styles.AddProductTextArea} name="txt_qry" rows="10" cols="36" placeholder='Product title'></textarea>
+        <textarea className={styles.AddProductTextArea} name="txt_qry" rows="10" cols="35" placeholder='Product title'></textarea>
         <br></br>
         <button className={styles.AddProductButton}>Update Product</button>
       </div>
